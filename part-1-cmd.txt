@@ -1,4 +1,0 @@
-Run the Docker container with the following command:
-
-
-docker run -d --name csvserver -p 9300:9300 -e CSVSERVER_BORDER=Orange -v C:\Windows\System32\csvserver\solution\inputFile\inputdata:/csvserver/inputdata infracloudio/csvserver:latest
